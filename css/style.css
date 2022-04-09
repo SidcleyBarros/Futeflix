@@ -1,0 +1,256 @@
+/*base*/
+
+:root{
+     --verde:#31B404;
+     --preto:#141414;
+     --branco: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Arial Black', Times;
+    color: var(--branco);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--verde);
+}
+
+.logo{
+    color: var(--branco);
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--branco);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: black;
+}
+
+
+.link{
+text-decoration: none;
+color: var(--branco);
+
+}
+
+
+
+
+/*banner principal*/
+
+.banner{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/torcida.png');
+    
+    height: 615px;
+    background-size: cover;
+    width: 100%;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner .descricao-titulo{
+    margin-bottom: 30px;
+    margin-top: 10px;
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner .titulo{
+    margin-top: 30%;
+    font-size: 40px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: var(--branco);
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    width: 300px;
+
+    cursor: pointer;
+    transition: .4s ease all;
+
+    text-decoration: none;
+}
+
+
+.botao:hover{
+    background-color: var(--verde);
+    color: var(--branco);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.banner .container{
+    margin-left: 5%;
+    width: 60%;
+}
+
+.box-carrossel{
+    margin-bottom: 10px;
+    height: 160px;
+    width: 100px;
+    
+}
+
+.box-carrossel:hover{
+    cursor: grab;
+}
+
+.box-carrossel:active{
+    cursor: grabbing;
+}
+
+
+.titulo-brasil{
+   margin-top: 3%;
+   margin-left: 2%;
+   margin-bottom: 2%;
+    font-size: 40px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carrossel-brasil{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.titulo-foto{
+    margin-bottom: 15px;
+    margin-left: 7%;
+    margin-right: 4%;
+    font-size:small;
+}
+
+footer{
+    background-color: var(--verde);
+    color: var(--preto);
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 16px;
+    align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+   display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 40px;
+   
+}
+
+footer img{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+/*index2*/
+
+.banner2{
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('/img/torcida2.png');
+
+    height: 634px;
+    background-size: cover;
+    width: 100%;
+}
+
+.body2{
+    background-color: var(--preto);
+}
+
+.titulo-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 5%;
+    font-size: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--branco);
+}
+
+.descricao-titulo2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    color: var(--branco);
+
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-size: 15px;
+}
+
+.botao2 {
+	background-color: var(--branco);
+	border-radius:3px;
+	
+	display:inline-block;
+	cursor:pointer;
+    transition: .4s ease all;
+	color:var(--preto);
+	font-family:Arial;
+	font-size:14px;
+	padding:6px 24px;
+	text-decoration:none;
+
+    margin-bottom: 10px;
+
+    width: 126px;
+
+}
+.botao2:hover {
+	
+	background-color: var(--verde);
+}
+.botao2:active {
+	position:relative;
+	top:1px;
+}
+
+.botaoposicao{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
